@@ -2,4 +2,4 @@
 
 **Dependencies** <br>
 Numpy <br>
-PyQt5
+PySide2 (Qt for Python)
