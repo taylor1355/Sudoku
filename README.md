@@ -1,5 +1,5 @@
 # Sudoku
 
-**Dependencies**
+**Dependencies** <br>
 Numpy
 PyQt5
