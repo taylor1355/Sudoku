@@ -4,7 +4,7 @@ import math
 # using forward checking
 def solve(board):
     num_possibilities = np.sum(board.possible, axis=0)
-    flat_indices = np.argsort(num_possibilities, axis=None)
+    flat_indices = np.argsort(num_possibilities, axis=None) # todo: find min subject to not already filled out constraint instead of sorting
 
     # print(board.current)
     # print(num_possibilities)
